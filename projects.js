@@ -1,10 +1,31 @@
 export const projects = [
     {
         id: "Orc",
-        title: "My Awesome Project Title",
-        description: "The most incredible description of a project you've ever seen.",
+        title: "Orc Character Design",
+        description: "What a cute guy.",
+        image: "images/OrcThumbnail.png",
+        tags: ["3D Modeling", "Character"],
+
+        media: [
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcPristine.png",
+                        alt: "Orc image",
+                        caption: "Everything here was modeled by hand. What a time to relax."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "Porygon",
+        title: "Asteroids Project",
+        description: "My first project, Asteroids but pokemon themed.",
         image: "images/will-greiner-catchingporys.jpg",
-        tags: ["Game Design", "3D Modeling", "Environment", "Character"],
+        tags: ["Game Design", "Environment"],
 
         media: [
             {
@@ -49,39 +70,17 @@ export const projects = [
         ]
     },
     {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
+        id: "DaedalusTower",
+        title: "Daedalus' Tower",
+        description: "Demo of my first full indie game, developed for a senior capstone project.",
+        image: "images/DaedThumbnail.png",
+        tags: ["Game Design", "3D Modeling", "Environment"],
     },
     {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
-    },
-    {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
-    },
-    {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
-    },
-    {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
-    },
-    {
-        id: "Orc2",
-        title: "Orc2",
-        description: "He is good.",
-        image: "images/will-greiner-catchingporys.jpg",
+        id: "CarlTemp",
+        title: "Carl the Cupcake",
+        description: "First experimentation with Character Design",
+        image: "images/JumpingCarl.png",
+        tags: ["3D Modeling", "Character"],
     },
 ]
