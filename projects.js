@@ -17,8 +17,80 @@ export const projects = [
                         caption: "Everything here was modeled by hand. What a time to relax."
                     }
                 ]
+            }, 
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcCloseup.png",
+                        alt: "Orc Closeup",
+                        caption: "Wow, look at those details."
+                    }
+                ]
+            }, 
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcFromBelow.png",
+                        alt: "Orc Below",
+                        caption: "He's Radiant"
+                    }
+                ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcFromFrontA.png",
+                        alt: "Orc Closeup",
+                        caption: "Wow, look at those details."
+                    }
+                ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcFromBackA.png",
+                        alt: "Orc Closeup",
+                        caption: "Wow, look at those details."
+                    },
+                ]
             }
         ]
+    },
+    {
+        id: "DaedalusTower",
+        title: "Daedalus' Tower",
+        description: "Demo of my first full indie game, developed for a senior capstone project.",
+        image: "images/DaedThumbnail.png",
+        tags: ["Game Design", "3D Modeling", "Environment"],
+
+        media: [
+            {
+                layout: "single",
+                items: [
+                ]
+            }
+        ],
+
+        embed: [
+            {
+            src: "https://itch.io/embed-upload/17245792?color=333333",
+            }
+        ]
+    },
+    {
+        id: "CarlTemp",
+        title: "Carl the Cupcake",
+        description: "First experimentation with Character Design",
+        image: "images/JumpingCarl.png",
+        tags: ["3D Modeling", "Character"],
     },
     {
         id: "Porygon",
@@ -68,19 +140,5 @@ export const projects = [
                 ]
             },
         ]
-    },
-    {
-        id: "DaedalusTower",
-        title: "Daedalus' Tower",
-        description: "Demo of my first full indie game, developed for a senior capstone project.",
-        image: "images/DaedThumbnail.png",
-        tags: ["Game Design", "3D Modeling", "Environment"],
-    },
-    {
-        id: "CarlTemp",
-        title: "Carl the Cupcake",
-        description: "First experimentation with Character Design",
-        image: "images/JumpingCarl.png",
-        tags: ["3D Modeling", "Character"],
     },
 ]
