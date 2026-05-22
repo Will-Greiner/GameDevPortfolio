@@ -14,7 +14,7 @@ export const projects = [
                         type:"image",
                         src: "images/orcPristine.png",
                         alt: "Orc image",
-                        caption: "Everything here was modeled by hand. What a time to relax."
+                        caption: "This is my first attempt at an original character. I wanted to experiment with cloth, metals, and most importantly organics."
                     }
                 ]
             }, 
@@ -25,7 +25,7 @@ export const projects = [
                         type:"image",
                         src: "images/orcCloseup.png",
                         alt: "Orc Closeup",
-                        caption: "Wow, look at those details."
+                        caption: "This model was fully blocked, sculpted, retopologized, textured, and rigged for real time environments by hand."
                     }
                 ]
             }, 
@@ -36,7 +36,7 @@ export const projects = [
                         type:"image",
                         src: "images/orcFromBelow.png",
                         alt: "Orc Below",
-                        caption: "He's Radiant"
+                        caption: 'My goal was to capture a contradiction of a muscular "monstrous" character in a relaxed and casual setting.'
                     }
                 ]
             },
@@ -46,8 +46,7 @@ export const projects = [
                     {
                         type:"image",
                         src: "images/orcFromFrontA.png",
-                        alt: "Orc Closeup",
-                        caption: "Wow, look at those details."
+                        alt: "Orc Front View",
                     }
                 ]
             },
@@ -57,8 +56,17 @@ export const projects = [
                     {
                         type:"image",
                         src: "images/orcFromBackA.png",
-                        alt: "Orc Closeup",
-                        caption: "Wow, look at those details."
+                        alt: "Orc Rear View",
+                    },
+                ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
+                        type:"image",
+                        src: "images/orcWire.png",
+                        alt: "Orc WireFrame",
                     },
                 ]
             }
