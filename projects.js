@@ -189,6 +189,17 @@ export const projects = [
                         caption: "Simple and Effective Wireframe"
                     }
                 ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
+                        type: "image",
+                        src: "images/GangsAllHere.png",
+                        alt: "Gang",
+                        caption: "Carl alongside other models from the project."
+                    }
+                ]
             }
         ]
     },
