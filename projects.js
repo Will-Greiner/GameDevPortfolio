@@ -83,6 +83,56 @@ export const projects = [
             {
                 layout: "single",
                 items: [
+                    {
+                        type: "video",
+                        src: "video/GameplayOnlyVideo.mp4",
+                        alt: "Trailer"
+                    }
+                ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
+                        type: "image",
+                        src: "images/TowerInterior.png",
+                        alt: "No-Logo",
+                        caption: "My first real project, focused on atmospheric vibes and simple yet effective puzzle mechanics."
+                    }
+                ]
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "image",
+                        src: "images/TowerInterior.png",
+                        alt: "Crunched",
+                        caption: "Resolution Crunching was used to capture a unique vibe and retro style."
+                    },
+                    {
+                        type: "image",
+                        src: "images/TowerInteriorNonCompressed.png",
+                        alt: "NonCrunched",
+                        caption: "This is how the game would look without it.\n"
+                    }
+                ]
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "video",
+                        src: "video/AssetShowcase.mp4.mov",
+                        alt: "Assets",
+                        caption: "Assets in unity shown through my compression filter."
+                    },
+                    {
+                        type: "image",
+                        src: "images/EditorAssets.png",
+                        alt: "EditorAssets",
+                        caption: "Assets in editor, no compression"
+                    }
                 ]
             }
         ],
@@ -94,18 +144,11 @@ export const projects = [
         ]
     },
     {
-        id: "CarlTemp",
+        id: "Carl",
         title: "Carl the Cupcake",
-        description: "First experimentation with Character Design",
+        description: "First Experimentation with Character Design and Animation",
         image: "images/JumpingCarl.png",
         tags: ["3D Modeling", "Character"],
-    },
-    {
-        id: "Porygon",
-        title: "Asteroids Project",
-        description: "My first project, Asteroids but pokemon themed.",
-        image: "images/will-greiner-catchingporys.jpg",
-        tags: ["Game Design", "Environment"],
 
         media: [
             {
@@ -113,9 +156,9 @@ export const projects = [
                 items: [
                     {
                         type: "image",
-                        src: "images/will-greiner-catchingporys.jpg",
-                        alt: "image",
-                        caption: "Hot dog."
+                        src: "images/JumpingCarl.png",
+                        alt: "CarlJumping",
+                        caption: "My first go at making a character, copying a very simple model from the FNAF franchise. This was made to be game ready as it was used in a test project."
                     }
                 ]
             },
@@ -123,16 +166,54 @@ export const projects = [
                 layout: "side-by-side",
                 items: [
                     {
+                        type: "video",
+                        src: "video/Attack Carl.mp4",
+                        alt: "Attack animation",
+                        caption: "Attack Animation",
+                    },
+                    {
+                        type: "video",
+                        src: "video/Idle Carl.mp4",
+                        alt: "Idle animation",
+                        caption: "Idle Animation"
+                    }
+                ]
+            },
+            {
+                layout: "single",
+                items: [
+                    {
                         type: "image",
-                        src: "images/will-greiner-sasscarl.webp",
+                        src: "images/WireCarl.png",
+                        alt: "WireCarl",
+                        caption: "Simple and Effective Wireframe"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: "Porygon",
+        title: "Asteroids Project",
+        description: "My first ever game dev project, Asteroids but pokemon themed.",
+        image: "images/will-greiner-catchingporys.jpg",
+        tags: ["Game Design", "Environment"],
+
+        media: [
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "image",
+                        src: "images/will-greiner-catchingporys.jpg",
                         alt: "image",
-                        caption: "Try again"
+                        caption: "First Ever Assets"
                     },
                     {
                         type: "image",
-                        src: "images/will-greiner-screenshot.webp",
+                        src: "images/CatchinPorysWire.png",
                         alt: "image",
-                        caption: "Huh"
+                        caption: "Wireframe"
                     }
                 ]
             },
@@ -141,9 +222,9 @@ export const projects = [
                 items: [
                     {
                         type: "video",
-                        src: "video/2026-03-07-17-41-30-trim.mp4",
-                        title: "image",
-                        caption: "Imma pop off"
+                        src: "video/PoryGamplay.mp4",
+                        title: "Gameplay",
+                        caption: "SimpleGameplay"
                     }
                 ]
             },

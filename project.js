@@ -56,7 +56,7 @@ if (!project) {
                             if (item.type === "video") {
                                 content = `
                                     <video 
-                                        muted
+                                        unmuted
                                         autoplay
                                         controls
                                         loop
