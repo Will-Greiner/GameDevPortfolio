@@ -3,7 +3,7 @@ import { projects } from "./projects.js"
 const gallery = document.getElementById("project-gallery")
 const filters = document.getElementById("project-filters")
 
-const allTags = ["All", "Game Design", "3D Modeling", "Environment", "Character", ...new Set(projects.flatMap(project => projects.tags || []))]
+const allTags = ["All", "Game Design", "Environments", "Characters", ...new Set(projects.flatMap(project => projects.tags || []))]
 
 function renderFilters() {
     filters.innerHTML = allTags.map(tag => `

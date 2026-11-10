@@ -70,7 +70,7 @@ body {
 
 .project-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: clamp(1rem, 2vw, 2rem);
     margin: 0 2rem;
 }
@@ -87,7 +87,7 @@ body {
 
 .project-card-image {
   position: relative;
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/3;
   overflow: hidden;
 }
 
@@ -182,6 +182,7 @@ body {
 
 .project-hero-content h1 {
     margin: 0;
+    margin-bottom: 0.5f;
     font-size: clamp(2.5rem, 7vw, 6rem);
     line-height: 0.95;
     letter-spacing: -0.02em;
@@ -197,9 +198,9 @@ body {
 }
 
 .project-media {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .media-group {
@@ -209,22 +210,46 @@ body {
 
 .media-group.single {
     grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.media-group.single .project-media-item {
+    width: 100%;
+    text-align: center;
+}
+
+.media-group.single .project-media-item figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .media-group.side-by-side .project-media-item {
     height: 100%;
     aspect-ratio: 4/3;
+    text-align: center;
 }
 
 .media-group.side-by-side {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
-    align-items: stretch; 
+    align-items: start;
+    text-align: center;
 }
 
-.media-group.side-by-side .project-media-item img,
-.media-group.side-by-side .project-media-item video {
+.project-media-item img,
+.project-media-item video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: contain;
+    background: #000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    text-align: center;
+}
+
+.project-gif {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -232,6 +257,9 @@ body {
 
 .project-media-item {
     margin: 0;
+    width: 100%;
+    min-width: 0;
+    text-align: center;
 }
 
 .project-media-item img,
@@ -239,15 +267,17 @@ body {
     display: block;
     width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    text-align: center;
 }
 
 .project-media-item video {
     background: black;
+    text-align: center;
 }
 
 .project-media-item figcaption {
     max-width: 720px;
-    margin: 0.75rem auto 0;
+    margin: 0.75rem auto 0.25f;
     font-size: 0.95rem;
     line-height: 1.5;
     color: #666;
@@ -264,7 +294,7 @@ body {
 /* ↓ Large tablets / small desktops */
 @media (max-width: 1100px) {
   .project-gallery {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: 0 1rem;
   }
 }
@@ -272,7 +302,7 @@ body {
 /* ↓ Tablets */
 @media (max-width: 800px) {
   .project-gallery {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -303,5 +333,6 @@ body {
 
     .media-group.side-by-side {
             grid-template-columns: 1fr;
+            text-align: center;
     }
 }

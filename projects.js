@@ -1,10 +1,93 @@
 export const projects = [
     {
+        id: "BootstrapInsurance",
+        title: "Bootstrap Insurance",
+        description: "Four Day Game Jam - Game Designer and Programmer",
+        image: "images/bootstrapIcon.png",
+        tags: ["Game Design"],
+
+        media: [
+            {
+                layout: "single",
+                items: [
+                    {
+                        type: "video",
+                        src: "video/bootstrapGameplay.mp4",
+                        alt: "Trailer",
+                        caption: "GMTK 2026 Jam - 2 Person Team - 3 Day Development in Unity <br> This game was built to be an exploration of 2d games, as well as stretching the limits of how much I could do at once. I handled everything other than sound and pixel art."
+                    }
+                ]
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "video",
+                        src: "video/mainDialogueInsurance.mp4",
+                        alt: "No-Logo",
+                        caption: "My first real project, focused on atmospheric vibes and simple yet effective puzzle mechanics."
+                    },
+                    {
+                        type: "video",
+                        src: "video/gameplayLoopInsurance.mp4",
+                        alt: "No-Logo",
+                        caption: "My first real project, focused on atmospheric vibes and simple yet effective puzzle mechanics."
+                    }
+                ]
+                
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "image",
+                        src: "images/TowerInterior.png",
+                        alt: "Crunched",
+                        caption: "Resolution Crunching was used to capture a unique vibe and retro style."
+                    },
+                    {
+                        type: "image",
+                        src: "images/TowerInteriorNonCompressed.png",
+                        alt: "NonCrunched",
+                        caption: "This is how the game would look without it.\n"
+                    }
+                ]
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "video",
+                        src: "video/AssetShowcase.mp4.mov",
+                        alt: "Assets",
+                        caption: "Assets in unity shown through my compression filter."
+                    },
+                    {
+                        type: "image",
+                        src: "images/EditorAssets.png",
+                        alt: "EditorAssets",
+                        caption: "Assets in editor, no compression"
+                    }
+                ]
+            }
+        ],
+
+            embeds: [
+        {
+        src: "https://itch.io/embed-upload/18524054?color=0d2b45",
+        link: "https://dev-for-hire.itch.io/bootstrap-insurance",
+        controls: " Controls : WASD to fly, E to grab and Left Click to release survivors",
+        width: 1280, // Optional, defaults to 1280
+        height: 720  // Optional, defaults to 720
+        }
+]
+    },
+    {
         id: "Orc",
         title: "Orc Character Design",
         description: "What a cute guy.",
         image: "images/OrcThumbnail.png",
-        tags: ["3D Modeling", "Character"],
+        tags: ["3D Modeling", "Characters"],
 
         media: [
             {
@@ -77,7 +160,7 @@ export const projects = [
         title: "Daedalus' Tower",
         description: "Demo of my first full indie game, developed for a senior capstone project.",
         image: "images/DaedThumbnail.png",
-        tags: ["Game Design", "3D Modeling", "Environment"],
+        tags: ["Game Design", "3D Modeling", "Environments"],
 
         media: [
             {
@@ -137,10 +220,13 @@ export const projects = [
             }
         ],
 
-        embed: [
-            {
-            src: "https://itch.io/embed-upload/17245792?color=333333",
-            }
+        embeds: [
+        {
+        src: "https://itch.io/embed-upload/17245792?color=333333",
+        link: "https://daedalus-studio.itch.io/daedalus-tower",
+        width: 1280, // Optional, defaults to 1280
+        height: 720  // Optional, defaults to 720
+        }
         ]
     },
     {
@@ -148,7 +234,7 @@ export const projects = [
         title: "Carl the Cupcake",
         description: "First Experimentation with Character Design and Animation",
         image: "images/JumpingCarl.png",
-        tags: ["3D Modeling", "Character"],
+        tags: ["3D Modeling", "Characters"],
 
         media: [
             {
@@ -208,7 +294,7 @@ export const projects = [
         title: "Asteroids Project",
         description: "My first ever game dev project, Asteroids but pokemon themed.",
         image: "images/will-greiner-catchingporys.jpg",
-        tags: ["Game Design", "Environment"],
+        tags: ["Game Design", "Environments"],
 
         media: [
             {
