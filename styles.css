@@ -87,7 +87,7 @@ body {
 
 .project-card-image {
   position: relative;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/9;
   overflow: hidden;
 }
 
@@ -226,7 +226,7 @@ body {
 
 .media-group.side-by-side .project-media-item {
     height: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
     text-align: center;
 }
 
@@ -241,7 +241,7 @@ body {
 .project-media-item video {
     display: block;
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
     height: auto;
     object-fit: contain;
     background: #000;
