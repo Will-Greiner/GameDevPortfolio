@@ -8,30 +8,19 @@ export const projects = [
 
         media: [
             {
-                layout: "single",
-                items: [
-                    {
-                        type: "video",
-                        src: "video/bootstrapGameplay.mp4",
-                        alt: "Trailer",
-                        caption: "GMTK 2026 Jam - 2 Person Team - 3 Day Development in Unity <br> This game was built to be an exploration of 2d games, as well as stretching the limits of how much I could do at once. I handled everything other than sound and pixel art."
-                    }
-                ]
-            },
-            {
                 layout: "side-by-side",
                 items: [
                     {
                         type: "video",
                         src: "video/mainDialogueInsurance.mp4",
-                        alt: "No-Logo",
-                        caption: "My first real project, focused on atmospheric vibes and simple yet effective puzzle mechanics."
+                        alt: "UI",
+                        caption: "High quality scene transisitions and robust dialogue system"
                     },
                     {
                         type: "video",
                         src: "video/gameplayLoopInsurance.mp4",
-                        alt: "No-Logo",
-                        caption: "My first real project, focused on atmospheric vibes and simple yet effective puzzle mechanics."
+                        alt: "Mechanics",
+                        caption: "Flight, Survivor Interaction, and Consistent Environmental Hazards"
                     }
                 ]
                 
@@ -40,16 +29,16 @@ export const projects = [
                 layout: "side-by-side",
                 items: [
                     {
-                        type: "image",
-                        src: "images/TowerInterior.png",
-                        alt: "Crunched",
-                        caption: "Resolution Crunching was used to capture a unique vibe and retro style."
+                        type: "video",
+                        src: "video/insuranceCave.mp4",
+                        alt: "Cave Level",
+                        caption: "Level focused on making the most of dynamic environmental hazards."
                     },
                     {
-                        type: "image",
-                        src: "images/TowerInteriorNonCompressed.png",
-                        alt: "NonCrunched",
-                        caption: "This is how the game would look without it.\n"
+                        type: "video",
+                        src: "video/insuranceTrain.mp4",
+                        alt: "Train Level",
+                        caption: "Level focused on limiting player movement while keeping challenge and some elements of freedom"
                     }
                 ]
             },
@@ -57,30 +46,31 @@ export const projects = [
                 layout: "side-by-side",
                 items: [
                     {
-                        type: "video",
-                        src: "video/AssetShowcase.mp4.mov",
-                        alt: "Assets",
-                        caption: "Assets in unity shown through my compression filter."
+                        type: "image",
+                        src:"images/bootstrapCredits.png",
+                        alt: "Credits",
+                        caption: "I'd never worked with my teammate before. Good practice learning how to work in a group on a tight timeline."
                     },
                     {
                         type: "image",
-                        src: "images/EditorAssets.png",
-                        alt: "EditorAssets",
-                        caption: "Assets in editor, no compression"
+                        src: "images/bootstrapRankingOnly.png",
+                        alt:"Ranking",
+                        caption: "Out of 10,500 entries, we ended up doing far better than expected, which exceeded our expectations for our first game jam experience."
                     }
                 ]
+
             }
         ],
 
-            embeds: [
-        {
-        src: "https://itch.io/embed-upload/18524054?color=0d2b45",
-        link: "https://dev-for-hire.itch.io/bootstrap-insurance",
-        controls: " Controls : WASD to fly, E to grab and Left Click to release survivors",
-        width: 1280, // Optional, defaults to 1280
-        height: 720  // Optional, defaults to 720
-        }
-]
+        embeds: [
+            {
+            src: "https://itch.io/embed-upload/18524054?color=0d2b45",
+            link: "https://dev-for-hire.itch.io/bootstrap-insurance",
+            controls: " Controls : WASD to fly, E to grab and Left Click to release survivors",
+            width: 1280, // Optional, defaults to 1280
+            height: 720  // Optional, defaults to 720
+            }
+        ]
     },
     {
         id: "Orc",
