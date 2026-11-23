@@ -12,7 +12,7 @@ export const projects = [
                 items:[
                     {
                     type: "video",
-                    src: "video/PotionofCruch.mp4",
+                    src: "video/PotionofCrunch.mp4",
                     alt: "Basic Gameplay",
                     caption: "Battle Brews is a game of discovery, time management, and optimization. Here is the process of making the first potion of the game. As it goes on, the amount of resources to gather and utilize increases, as do their attributes."
                     }
