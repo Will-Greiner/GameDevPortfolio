@@ -1,5 +1,43 @@
 export const projects = [
     {
+        id: "BattleBrews",
+        title: "Battle Brews",
+        description: "Long Term Group Project - Tech Art and Programming",
+        image: "images/battleBrewsSplash.png",
+        tags: ["Game Design"],
+
+        media: [
+            {
+                layout: "single",
+                items:[
+                    {
+                    type: "video",
+                    src: "video/PotionofCruch.mp4",
+                    alt: "Basic Gameplay",
+                    caption: "Battle Brews is a game of discovery, time management, and optimization. Here is the process of making the first potion of the game. As it goes on, the amount of resources to gather and utilize increases, as do their attributes."
+                    }
+                ]
+            },
+            {
+                layout: "side-by-side",
+                items: [
+                    {
+                        type: "video",
+                        src: "video/IsolatedEffects.mp4",
+                        alt: "Effects Black Box",
+                        caption: "Some of the effects I made for this game. Focus on stylistic bridge from realistic elements in the environment with the cartoony cell shaded assets."
+                    },
+                    {
+                        type: "video",
+                        src: "video/RapidEffects.mp4",
+                        alt: "Gameplay Rapid",
+                        caption: "Here's the effects in context. Focus on immersion and enhancing the feel of doing the in-game tasks."
+                    }
+                ]
+            }
+        ]
+    },
+    {
         id: "BootstrapInsurance",
         title: "Bootstrap Insurance",
         description: "Four Day Game Jam - Game Designer and Programmer",
@@ -53,7 +91,7 @@ export const projects = [
                     },
                     {
                         type: "image",
-                        src: "images/bootstrapRankingOnly.png",
+                        src: "images/bootstrapRanking.png",
                         alt:"Ranking",
                         caption: "Out of 10,500 entries, we ended up doing far better than expected, which exceeded our expectations for our first game jam experience."
                     }
@@ -278,7 +316,8 @@ export const projects = [
                 ]
             }
         ]
-    },
+    }
+    /*,
     {
         id: "Porygon",
         title: "Asteroids Project",
@@ -317,4 +356,5 @@ export const projects = [
             },
         ]
     },
+    */
 ]
